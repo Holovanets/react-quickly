@@ -1,10 +1,13 @@
-var h1 = React.createElement('h1', null, 'Hello world!')
+var h1 = React.createElement('h1', null, 'Hello worlds!')
 var h2 = React.createElement('h1', null, 'Hello friends!')
 
 class HelloWorld extends React.Component {
   render() {
-    console.log(Object.isFrozen(this.props))
-    return React.createElement('div', null, h1, h2)
+    return React.createElement(
+      'h1',
+      this.props,
+      'Hello +' + this.props.frameworkName + ' world!!!'
+    )
   }
 }
 

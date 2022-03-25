@@ -1,0 +1,21 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "./node_modules/.bin/babel hello-world/js/script.jsx -o hello-world/js/script.js -w",
+    "test": "E:/open server/OSPanel/domains/azat/react-quickly/ch01/hello-world/js/script.jsx"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "npm": "^8.5.5"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "react"
+    ]
+  }
+}

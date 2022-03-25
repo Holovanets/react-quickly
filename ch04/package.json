@@ -16,7 +16,9 @@
   "author": "Azat Mardan",
   "license": "MIT",
   "babel": {
-    "presets": ["react"]
+    "presets": [
+      "react"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
